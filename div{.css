@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dior México - Página de Lujo</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1, h2 {
+            font-family: 'Georgia', serif;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sección de bienvenida */
+        .bienvenida {
+            background: url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .bienvenida h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .bienvenida p {
+            font-size: 22px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        /* Sección de productos */
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .producto {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            overflow: hidden;
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+        }
+
+        .producto h3 {
+            font-size: 24px;
+            padding: 15px;
+        }
+
+        .producto p {
+            font-size: 16px;
+            padding: 0 15px 15px;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <a href="#">Inicio</a>
+        <a href="#">Colección</a>
+        <a href="#">Novedades</a>
+        <a href="#">Contacto</a>
+    </header>
+
+    <!-- Sección de bienvenida -->
+    <section class="bienvenida">
+        <h2>Bienvenido a Dior México</h2>
+        <p>Descubre la elegancia y la sofisticación en cada una de nuestras colecciones exclusivas. Vive la experiencia de lujo.</p>
+        <a href="#" style="color: #fff; text-decoration: underline; font-size: 18px;">Explora la Colección</a>
+    </section>
+
+    <!-- Sección de productos destacados -->
+    <section class="productos">
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x300" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>Descripción breve del producto.</p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Dior México. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
